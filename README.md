@@ -1,5 +1,5 @@
 # IDA_OpenSees_PBEE
-OpenSees TCL script for IDA
+OpenSees TCL script for Incremental Dynamic Analysis (IDA)
 
 ------------------------------------------------------------------------------------------------------------------
 Script overview 
