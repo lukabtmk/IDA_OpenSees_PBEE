@@ -20,10 +20,7 @@ provided by the user is reached. The calculated maximum displacements and accele
 motion factor are saved in separate directories. Finally, all the calculated maximum displacements and accelerations are written into 
 two .txt files. The first file is a column matrix that includes all the calculated maximum displacements/accelerations, while 
 the second file additionally contains the ground motion factor and name of the ground motion - complete description.
-    
--------------------------------------------------------------------------------------------------------------------
-Possible errors:
-*Strain too large - model failure: structural failure or non-convergence issues - possible structural resurrection of IDA curve.
+
 -------------------------------------------------------------------------------------------------------------------
 Inputs:
 
@@ -51,3 +48,8 @@ $"Umax_all_text.txt" - all maximum displacements in a single text column file wi
 REQUIREMENTS:
 To run this script, the following is also required:
   1. .tcl file with defined units: "Units.SI.tcl" - if applicable for the SDOF/MDOF model
+
+-------------------------------------------------------------------------------------------------------------------
+Possible errors:
+Strain too large - model failure: structural failure or non-convergence issues - possible structural resurrection of IDA curve.
+-------------------------------------------------------------------------------------------------------------------
