@@ -2,7 +2,7 @@
 OpenSees TCL script for IDA
 
 ------------------------------------------------------------------------------------------------------------------
------------------------------------------- Script overview -------------------------------------------------------
+Script overview 
 ------------------------------------------------------------------------------------------------------------------
 This is a script that will conduct IDA analysis from a provided set of ground motions for a given structural model. 
 The user needs to provide: 
